@@ -15,7 +15,11 @@ public PlayDohCircle()
 	public PlayDohCircle(int size)
 	{
 			this.size = size;
-	
+			
+			public void setSize(int newSize)
+			
+			this.size = newSize;
+					
 	}
 public String toString()
 {
