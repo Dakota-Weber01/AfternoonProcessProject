@@ -22,6 +22,7 @@ public class PlayDohSnowMan
 		String description = "I am a snowman, my size is " + size;
 		return description;
 	}
+}
 
 			
 			

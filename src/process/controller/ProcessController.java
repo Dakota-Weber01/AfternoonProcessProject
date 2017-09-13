@@ -1,5 +1,6 @@
 package	process.controller;
 
+import java.util.
 import process.model.PlayDohCircle;
 public class ProcessController
 {
@@ -19,6 +20,8 @@ public class ProcessController
 			System.out.println(firstCircle);
 			PlayDohCircle thirdCircle = new PlayDohCircle(10);
 			System.out.println(thirdCircle);
+			
+			PlayDohCircle thirdCircle = new PlayDohCircle(circleSize);
 		}
 }
 
