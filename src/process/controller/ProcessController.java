@@ -22,6 +22,12 @@ public class ProcessController
 			System.out.println(thirdCircle);
 			
 			PlayDohCircle thirdCircle = new PlayDohCircle(circleSize);
+			
+		System.out.println("What size should we change the circle to?");
+			int updated = myScanner.nextInt();
+			thirdCircle.setize(updated);
+			System.out.println("THe circle now is...");
+			System.out.println(thirdCircle);
 		}
 }
 
